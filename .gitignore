@@ -1,0 +1,23 @@
+# Dependencias
+frontend/node_modules/
+backend/__pycache__/
+backend/app/__pycache__/
+**/__pycache__/
+*.pyc
+
+# Variables de entorno (contienen contraseñas)
+backend/.env
+
+# PDFs generados
+generated_pdfs/
+
+# Fotos de la galería (pueden ser muy pesadas)
+galeria/
+
+# Build del frontend
+frontend/dist/
+
+# Archivos del sistema
+.DS_Store
+*.log
+frontend/public/materiales/*.pdf

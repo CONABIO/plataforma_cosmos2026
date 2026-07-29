@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-gray-50 text-gray-800; }
+
+/* Leaflet z-index fix para que no tape la navbar */
+.leaflet-top, .leaflet-bottom { z-index: 400 !important; }
+
+/* Quitar borde negro de selección en polígonos */
+.leaflet-interactive:focus { outline: none; }
+path.leaflet-interactive:focus { outline: none; }
+
+/* Tooltip con nombre del ANP */
+.anp-tooltip {
+  background: #1f3d2b;
+  border: none;
+  border-radius: 6px;
+  color: #efe7d8;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+.anp-tooltip::before { display: none; }
