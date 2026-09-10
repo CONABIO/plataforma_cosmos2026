@@ -21,3 +21,7 @@ frontend/dist/
 .DS_Store
 *.log
 frontend/public/materiales/*.pdf
+
+.env
+*.env
+backend/.env

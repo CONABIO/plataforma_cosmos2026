@@ -7,7 +7,7 @@ const ANP = [
   { id: 'sierra-huautla', nombre: 'Sierra de Huautla', categoria: 'Reserva de la Biosfera', estado: 'Morelos' },
 ]
 
-const API_BASE = (import.meta.env.VITE_API_BASE_URL || 'http://localhost:5173/api/v1')
+const API_BASE = (import.meta.env.VITE_API_BASE_URL || '/api/v1')
 
 function Carrusel({ anpId }) {
   const [fotos, setFotos] = useState([])

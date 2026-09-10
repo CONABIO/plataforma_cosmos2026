@@ -111,7 +111,7 @@ export default function Planeaciones() {
     setError('')
     try {
       const { pdf_url } = await api.post(`/ia/planeaciones/${resultado.id}/pdf`).then(r => r.data)
-      window.open(`http://localhost:5173${pdf_url}`, '_blank')
+      window.open(pdf_url, '_blank')
     } catch (err) {
       setError('No fue posible generar el PDF. ' + (err.response?.data?.detail || ''))
     }

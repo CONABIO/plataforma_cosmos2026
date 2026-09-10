@@ -15,13 +15,15 @@ class Settings(BaseSettings):
     OPENAI_BASE_URL: str = "http://ollama:11434/v1"
 
     # CORS
-    BACKEND_CORS_ORIGINS: List[str] = ["http://localhost:5173", "http://localhost:3000"]
+    BACKEND_CORS_ORIGINS: List[str] = [
+        "http://localhost:5173", 
+        "http://localhost:3000"
+    ]
 
     # PDF
     PDF_OUTPUT_DIR: str = "/app/generated_pdfs"
 
     class Config:
-        env_file = ".env"
         case_sensitive = True
 
 
