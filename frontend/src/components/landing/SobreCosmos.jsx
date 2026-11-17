@@ -28,6 +28,11 @@ export default function SobreCosmos() {
             Además, les permite planear y crear sus propias actividades educativas, talleres y acciones de comunicación para contribuir a la conservación de la biodiversidad y al cuidado de sus territorios.
           </p>
         </div>
+        <div className="mt-10 flex flex-wrap items-center gap-4">
+          <a href="https://fmcn.org/project/cosmos/" target="_blank" className="border border-white/60 hover:border-white bg-black/20 backdrop-blur-sm px-6 py-3 rounded-full transition-colors text-white">
+            Proyecto CoSMoS
+          </a>
+        </div>
 
         <div className="mt-16 grid sm:grid-cols-2 gap-5">
           {LINEAS.map((l) => (
