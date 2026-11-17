@@ -20,10 +20,10 @@ export default function SobreCosmos() {
         <div className="max-w-2xl">
           <p className="font-mono text-xs uppercase tracking-[0.25em] text-ocre-400 mb-4" style={sombra}>Sobre CoSMoS</p>
           <h2 className="font-display text-4xl sm:text-5xl font-semibold text-white leading-tight" style={sombraFuerte}>
-            Un proyecto de cooperación binacional para el corazón montañoso de México
+            Aula CoSMoS es una plataforma de divulgación y aprendizaje creada para el proyecto Conservación y Uso Sostenible de Montañas y Sierras (CoSMoS). Integra en un solo espacio conocimiento, contenidos, herramientas y materiales sobre las principales temáticas de interés
           </h2>
           <p className="mt-6 text-white leading-relaxed" style={sombra}>
-            En el marco de la cooperación entre México y Alemania, CoSMoS materializa acciones de conservación y uso sostenible en el Eje Neovolcánico y el Altiplano. Es una alianza entre CONANP y CONABIO, con financiamiento de KfW Banco de Desarrollo.
+            Para las 19 Áreas Naturales Protegidas que participan en el proyecto, y los transforma en recursos útiles para que comunidades, educadores y equipos de las ANP fortalezcan el aprendizaje, la educación ambiental, la comunicación, la participación comunitaria y las acciones de conservación en sus territorios.
           </p>
         </div>
 
