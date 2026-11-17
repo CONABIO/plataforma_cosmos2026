@@ -20,10 +20,12 @@ export default function SobreCosmos() {
         <div className="max-w-2xl">
           <p className="font-mono text-xs uppercase tracking-[0.25em] text-ocre-400 mb-4" style={sombra}>Sobre CoSMoS</p>
           <h2 className="font-display text-4xl sm:text-5xl font-semibold text-white leading-tight" style={sombraFuerte}>
-            Aula CoSMoS es una plataforma de divulgación y aprendizaje creada para el proyecto Conservación y Uso Sostenible de Montañas y Sierras (CoSMoS). Integra en un solo espacio conocimiento, contenidos, herramientas y materiales sobre las principales temáticas de interés
+            Aula CoSMoS es una plataforma de aprendizaje y divulgación creada para el proyecto Conservación y Uso Sostenible de Montañas y Sierras (CoSMoS).
           </h2>
           <p className="mt-6 text-white leading-relaxed" style={sombra}>
-            Para las 19 Áreas Naturales Protegidas que participan en el proyecto, y los transforma en recursos útiles para que comunidades, educadores y equipos de las ANP fortalezcan el aprendizaje, la educación ambiental, la comunicación, la participación comunitaria y las acciones de conservación en sus territorios.
+            Integra en un solo espacio conocimiento, contenidos, herramientas y materiales sobre las principales problemáticas y temáticas de interés para las 19 Áreas Naturales Protegidas que participan en el proyecto CoSMoS, y los                 transforma en recursos útiles para que comunidades, educadores, brigadistas y equipos de las ANPs fortalezcan el aprendizaje, la educación ambiental, la comunicación y la participación comunitaria.
+
+            Además, les permite planear y crear sus propias actividades educativas, talleres y acciones de comunicación para contribuir a la conservación de la biodiversidad y al cuidado de sus territorios.
           </p>
         </div>
 

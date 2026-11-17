@@ -30,14 +30,14 @@ export default function Hero() {
           Montañas y sierras que se cuidan desde la comunidad.
         </h1>
         <p className="mt-6 text-lg sm:text-xl text-white max-w-2xl font-semibold leading-relaxed" style={sombra}>
-          CoSMoS — Conservación y Uso Sostenible en Montañas y Sierras — fortalece el manejo de Áreas Naturales Protegidas en el centro de México.
+          Aula CoSMoS: un espacio digital para impulsar la divulgación, la educación ambiental y la participación en la conservación de las Áreas Naturales Protegidas del centro de México.
         </p>
         <div className="mt-10 flex flex-wrap items-center gap-4">
-          <a href="#sobre-cosmos" className="bg-ocre-500 hover:bg-ocre-400 text-arena-100 font-medium px-6 py-3 rounded-full transition-colors shadow-lg">
-            Conoce el proyecto
+          <a href="#materiales" className="bg-ocre-500 hover:bg-ocre-400 text-arena-100 font-medium px-6 py-3 rounded-full transition-colors shadow-lg">
+            Explora
           </a>
-          <a href="#mapa" className="border border-white/60 hover:border-white bg-black/20 backdrop-blur-sm px-6 py-3 rounded-full transition-colors text-white">
-            Explorar el mapa
+          <a href="#planeaciones" className="border border-white/60 hover:border-white bg-black/20 backdrop-blur-sm px-6 py-3 rounded-full transition-colors text-white">
+            Planea tu actividad
           </a>
         </div>
         {/* 
